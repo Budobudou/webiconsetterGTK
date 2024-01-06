@@ -1,3 +1,5 @@
 # bin and ogj
 bin/
 obj/
+MainWindow.glade~
+C:output/
