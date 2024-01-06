@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.18"/>
@@ -18,7 +18,7 @@
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <child>
-              <object class="GtkImage" id="_thum">
+              <object class="GtkImage">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="pixbuf">assets/black196.png</property>
@@ -44,13 +44,13 @@
                         <property name="can-focus">False</property>
                         <property name="orientation">vertical</property>
                         <child>
-                          <object class="GtkComboBoxText" id="iconsource">
+                          <object class="GtkComboBoxText">
                             <property name="name">iconsource</property>
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
                             <property name="active">1</property>
                             <items>
-                              <item id="0" translatable="yes">Gravater</item>
+                              <item translatable="yes">Gravater</item>
                             </items>
                           </object>
                           <packing>
@@ -100,7 +100,6 @@
                           <packing>
                             <property name="expand">False</property>
                             <property name="fill">False</property>
-                            <property name="pack-type">end</property>
                             <property name="position">3</property>
                           </packing>
                         </child>
