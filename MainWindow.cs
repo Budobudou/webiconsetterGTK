@@ -42,7 +42,7 @@ namespace webiconsetter
             var image = new Gdk.Pixbuf(epreview,196,196);
             _thum.Pixbuf = image;
             } catch(Exception e){
-            byte[] epreview = File.ReadAllBytes("assets/black196.png");
+            byte[] epreview = File.ReadAllBytes("/usr/share/webiconsetter/black196.png");
             var image = new Gdk.Pixbuf(epreview,196,196);
             _thum.Pixbuf = image;
             }
@@ -129,7 +129,7 @@ namespace webiconsetter
             } 
             catch(Exception e)
             {
-                byte[] epreview = File.ReadAllBytes("assets/black196.png");
+                byte[] epreview = File.ReadAllBytes("/usr/share/webiconsetter/black196.png");
                 var image = new Gdk.Pixbuf(epreview,196,196);
                 _thum.Pixbuf = image;
             }
@@ -144,7 +144,7 @@ namespace webiconsetter
             AboutDialog aboutdialog = new AboutDialog();
             aboutdialog.ProgramName = "WebIconSetter";
             aboutdialog.Version = version;
-            byte[] epreview = File.ReadAllBytes("assets/logo.png");
+            byte[] epreview = File.ReadAllBytes("/usr/share/webiconsetter/logo.png");
             var image = new Gdk.Pixbuf(epreview,128,128);
             aboutdialog.Logo = image;
             aboutdialog.Title = "WebIconSetter";

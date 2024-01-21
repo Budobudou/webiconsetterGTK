@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=WebIconSetter
+Comment=Set the .face icon from the system on the web
+Comment[ja]=.face アイコンをウェブ上のシステムから設定します
+Exec=webiconsetter
+Icon=/usr/share/webiconsetter/logo.png
+Terminal=false
+Categories=GTK;Settings;DesktopSettings;

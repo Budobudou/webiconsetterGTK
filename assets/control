@@ -1,0 +1,8 @@
+Package: pioneos-webiconsetter
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: 
+Maintainer: Budobudou <email@address.com>
+Description: オンライン上のシステムからアイコンを設定します。PioneOS 向けアプリです

@@ -13,7 +13,7 @@ namespace webiconsetter
             var app = new Application("org.webiconsetter.webiconsetter", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
             var win = new MainWindow();
-            MainWindow.SetDefaultIconFromFile("assets/logo.png");
+            MainWindow.SetDefaultIconFromFile("/usr/share/webiconsetter/logo.png");
             app.AddWindow(win);
             win.Show();
             Application.Run();

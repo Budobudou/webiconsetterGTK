@@ -7,7 +7,7 @@
     <property name="title" translatable="yes">WebIconSetter</property>
     <property name="resizable">False</property>
     <property name="default-width">500</property>
-    <property name="icon">assets/logo.png</property>
+    <property name="icon">/usr/share/webiconsetter/logo.png</property>
     <child>
       <object class="GtkBox">
         <property name="visible">True</property>
@@ -71,7 +71,7 @@
               <object class="GtkImage" id="_thum">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="pixbuf">assets/black196.png</property>
+                <property name="pixbuf">/usr/share/webiconsetter/logo.png</property>
               </object>
               <packing>
                 <property name="resize">False</property>
